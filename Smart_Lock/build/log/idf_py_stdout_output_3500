@@ -1,0 +1,16 @@
+[1/10] Performing build step for 'bootloader'
+[1/1] cmd.exe /C "cd /D E:\project_ruanjian\AAA_Workspace\AAA_ESP32_project\Smart_Lock\build\bootloader\esp-idf\esptool_py && E:\project_ruanjian\Espressif\python_env\idf5.3_py3.11_env\Scripts\python.exe E:/project_ruanjian/Espressif/frameworks/esp-idf-v5.3.1/components/partition_table/check_sizes.py --offset 0x8000 bootloader 0x0 E:/project_ruanjian/AAA_Workspace/AAA_ESP32_project/Smart_Lock/build/bootloader/bootloader.bin"
+Bootloader binary size 0x5180 bytes. 0x2e80 bytes (36%) free.
+[2/8] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/main.c.obj
+[3/8] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/Dri/Dri_NVS.c.obj
+[4/8] Linking C static library esp-idf\main\libmain.a
+[5/8] Generating ld/sections.ld
+[6/8] Linking CXX executable Smart_Lock.elf
+[7/8] Generating binary image from built executable
+esptool.py v4.9.0
+Creating esp32c3 image...
+Merged 1 ELF section
+Successfully created esp32c3 image.
+Generated E:/project_ruanjian/AAA_Workspace/AAA_ESP32_project/Smart_Lock/build/Smart_Lock.bin
+[8/8] cmd.exe /C "cd /D E:\project_ruanjian\AAA_Workspace\AAA_ESP32_project\Smart_Lock\build\esp-idf\esptool_py && E:\project_ruanjian\Espressif\python_env\idf5.3_py3.11_env\Scripts\python.exe E:/project_ruanjian/Espressif/frameworks/esp-idf-v5.3.1/components/partition_table/check_sizes.py --offset 0x8000 partition --type app E:/project_ruanjian/AAA_Workspace/AAA_ESP32_project/Smart_Lock/build/partition_table/partition-table.bin E:/project_ruanjian/AAA_Workspace/AAA_ESP32_project/Smart_Lock/build/Smart_Lock.bin"
+Smart_Lock.bin binary size 0x390d0 bytes. Smallest app partition is 0x100000 bytes. 0xc6f30 bytes (78%) free.
